@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+    padding: 20px;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo {
+    color: black;
+    float: left;
+    font-weight: bold;
+    text-shadow: 0 15px 5px white;
+}
+
+.logo span {
+    color: red;
+}
+
+.escudo {
+    height: 20px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.barra {
+    float: right;
+}
+
+.barra ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.barra a {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+
+.call{
+    color: white;
+    width: 40%;
+    border: 6px solid red;
+    float: right;
+    margin: 30px;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    color: red;
+    margin-bottom: 20px;
+}
+
+.barra a:hover {
+    color: red;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: lightgray;
+    background-image: url(../imagenes/fondodepagina.webp);
+}
+
+.call p{
+    margin-bottom: 20px;
+}
+
+.call a{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+h2{
+    background-color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sec{
+    height: 650px;
+    width: 100%;
+    background-color: gray;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer p{
+    margin-bottom: 20px;
+}
+
+.redes a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+}
+
+.Subir{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+text-align: center;
+color: white;
+line-height: 40px;
+font-size: 25px;
+border-radius: 40px;
+box-shadow: 0 0 10px 6px white;
+}
